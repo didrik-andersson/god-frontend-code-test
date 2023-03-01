@@ -2087,6 +2087,11 @@
   dependencies:
     "@use-gesture/core" "10.2.24"
 
+"@volvo-cars/favicons@^4.2.1":
+  version "4.2.1"
+  resolved "https://registry.npmjs.org/@volvo-cars/favicons/-/favicons-4.2.1.tgz"
+  integrity sha512-5kiPyr9MYRmnTWqycr+0iNQNZE4Y1fZoushNC8brKVlNFm/MHqEzFqsU/IEwIuh56VQAsHFhsbNQz8OF/FK24Q==
+
 "@volvo-cars/react-aria@^0.3.1":
   version "0.3.1"
   resolved "https://registry.npmjs.org/@volvo-cars/react-aria/-/react-aria-0.3.1.tgz"
