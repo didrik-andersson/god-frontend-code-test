@@ -11,6 +11,7 @@ interface IProductCarousel {
   products: IProductData[]
 }
 
+// TODO: Refactor this method for more readability.
 const mapCarouselItems = (items: IProductData[], type: 'mobile' | 'desktop') => {
   if (type === 'mobile') {
     return items.map((item, index) =>

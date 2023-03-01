@@ -1,7 +1,6 @@
 
 .productWrapper {
   padding-bottom: 16px;
-  pointer-events: none;
   cursor: grab;
 }
 
@@ -19,4 +18,5 @@
 
 .productMediaWrapper { 
   margin: 16px 0px;
+  pointer-events: none;
 }
