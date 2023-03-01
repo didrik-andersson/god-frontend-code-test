@@ -1,0 +1,23 @@
+
+.wrapper {
+  margin: 50px 0px;
+  overflow: hidden;
+}
+
+.container {
+  /* max-width: 1200px;
+  margin: 0 auto; */
+  padding: 0px 24px;
+}
+
+.carouselWrapper {
+  max-width: 1200px;
+  margin: 0px auto;
+  position: relative;
+}
+
+@media screen and (min-width: 1024px) {
+  .carouselWrapper {
+    overflow: hidden;
+  }
+}
