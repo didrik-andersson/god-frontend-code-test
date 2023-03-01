@@ -1,0 +1,22 @@
+
+.productWrapper {
+  padding-bottom: 16px;
+  pointer-events: none;
+  cursor: grab;
+}
+
+.productName {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4px;
+}
+
+@media screen and (min-width: 1024px) {
+  .productName {
+    flex-direction: row;
+  }
+}
+
+.productMediaWrapper { 
+  margin: 16px 0px;
+}
