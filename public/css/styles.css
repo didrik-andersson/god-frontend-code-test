@@ -1,4 +1,26 @@
 body {
-  background: steelblue;
-  color: white;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .hidden-ltmd {
+    display: none;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .hidden-gtmd {
+    display: none;
+  }
 }
